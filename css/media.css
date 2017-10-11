@@ -1,0 +1,120 @@
+/* 
+     Author : Azhar Hussain
+     Email: azharhussain4647@gmail.com
+     Website:
+     Facebook: https://www.facebook.com/azhar.hussainmasum
+*/
+
+@media (max-width:394px){
+    header{
+        padding-top: 50px;
+    }
+    .header-text h1{
+        font-size:33px;
+    }
+    .header-text form ul li input[type="email"]{
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:767px){
+    .navbar-collapse {
+        background-color:#EFEFEF;
+        color:black!important;
+        position: relative;
+        z-index: 1000;
+    }
+    .main-menu ul li a{
+        color: #265a88!important;
+    }
+}
+@media(min-width:768px) and (max-width:1025px) {
+    .main-menu ul li a{
+        font-size:15px;
+        padding: 14px 6px;
+    }
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        color: blanchedalmond!important;
+    }
+}
+@media (min-width:1230px){
+    .header-text{
+        position: absolute;
+        top:70%;
+        transform: translateY(-70%);
+        -webkit-transform: translateY(-70%);
+        -moz-transform: translate(-70%);
+    }
+    .header-text h1{
+        color: #F3F3F3;
+        font-family:'Montserrat-Bold';
+        text-transform: uppercase;
+        font-size: 60px;
+        max-width: 67%;
+    }
+    .header-text p{
+        color: #E9E9E9;
+        max-width: 46%;
+        font-size: 24px;
+    }
+}
+@media (min-width:650px){
+    .slider-caption p{
+        font-size: 23px;
+
+    }
+    .slider-caption h3{
+        font-size: 24px;
+    }
+}
+@media (max-width:580px){
+    .copyright{
+        text-align: center;
+        font-size: 13px;
+    }
+    .copyright span{
+        float: none!important;
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+}
+@media (max-width:767px){
+    h2{
+        font-size: 26px;
+    }
+    .success{
+        text-align: center;
+    }
+    .success hr{
+        width: 200px;
+        margin: 0 auto;
+    }
+    #success .thumbnail img{
+        width: 100%;
+    }
+    .deatails{
+        text-align: center;
+    }
+    .deatails address{
+        color: #9C9C9C;
+        font-size:16px;
+    }
+    .deatails a{
+        color: #9C9C9C;
+        font-size:16px;
+    }
+    .contact-form{
+        text-align: center;
+        margin-bottom:50px;
+    }
+}
+
+@media (min-width:768px){
+    .mr{
+        margin-right: 10px;
+    }
+    .ml{
+        margin-left: 10px;
+    }
+}

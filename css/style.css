@@ -1,0 +1,211 @@
+/* 
+  
+     Author : Azhar Hussain
+     Email: azharhussain4647@gmail.com
+     Website:
+     Facebook: https://www.facebook.com/azhar.hussainmasum
+*/
+
+@font-face{
+    font-family:'Montserrat-Regular';
+    src:url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family:'Montserrat-Bold';
+    src:url(../fonts/Montserrat-Bold.ttf);
+}
+body{
+    font-family:'Montserrat-Regular';
+}
+
+/* ==== Nav Start Here ======*/
+.main-menu {
+    background: transparent;
+    border: 0;
+}
+.main-menu ul li a{
+    color: #EAEAEA!important;
+    font-size:20px;
+    padding: 14px 10px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: blanchedalmond!important;
+
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fcf8e3;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: dimgrey;
+}                   
+/* ==== Nav END Here ======*/
+
+/*======Header-Part Start Here========*/
+header{
+    background: url(../img/header-bg.jpg) no-repeat center;
+    background-size: cover;
+    min-height:120vh;
+    padding-top:100px;
+    position: relative;
+}
+.header-text{
+    position: absolute;
+    top:70%;
+    transform: translateY(-70%);
+    -webkit-transform: translateY(-70%);
+    -moz-transform: translate(-70%);
+}
+.header-text h1{
+    color: #F3F3F3;
+    font-family:'Montserrat-Bold';
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.header-text p{
+    color: #E9E9E9;
+    font-size:16px;
+
+}
+
+input.form-control.ss {
+    background: #F7564B;
+    border-color: transparent;
+    color: #FFF;
+    box-shadow: 0 0 10px rgba(8, 8, 8, 0.9);
+}                           /*=====Header-Part End Here======*/
+
+/*===Success-part Start here===*/
+#success{
+    padding: 70px 0px;
+    background: #FDFDFD;
+}
+.success{
+    padding-bottom:50px;
+}
+.success h1{
+    font-family:'Montserrat-Bold';
+    text-transform:uppercase;
+}
+.success hr{
+    width: 75px;
+    border-color: #9A9A9A;
+    background-color: #9A9A9A;
+    height: 2px;
+}
+.thumbnail {
+    padding: 0;
+    border: 0;
+}
+.thumbnail .caption {
+    padding: 20px 0;
+}
+.thumbnail .caption p{
+    font-size: 20px;
+    color:#AEACAC;
+}
+.thumbnail .caption a{
+    font-size:16px;
+    color:#535353;
+}                     /*=======Success-part End here===========*/
+
+/*====Slider-Part Start Here=====*/
+#slider{
+    background: url(../img/slider-img.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height:51vh;
+}
+.carousel {
+    position: relative;
+    height: 51vh;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-indicators li {
+    background-color: #ABA5A0;
+    border: 1px solid #ABA5A0;
+
+}
+.slider-caption{
+    color: white;
+    text-align: center;
+}
+.slider-caption p{
+    font-size: 16px;
+    color: #CECFD0;
+}
+.slider-caption h3{
+    font-size: 20px;
+    color: #F3F3F3;
+}                        /*--===Slider-Part End Here====--*/
+
+
+/*=== Footer Start Here====*/
+
+#main-footer{
+    padding: 50px 0px;
+}
+.contact{
+    text-align: center;
+    padding-bottom:50px;
+}
+.contact h2{
+    font-family:'Montserrat-Bold';
+    color: #666666;
+    text-transform: uppercase;
+}
+.contact-form h3{
+    padding-bottom: 20px;
+}
+
+.contact-form .form-control {
+    background: #EDEDED;
+    border: 0;
+    padding: 20px 20px;
+}
+.btn-custom {
+    padding: 12px 40px;
+    font-size: 16px;
+    background: #F7564B;
+    color: #EDE1E1!important;
+    box-shadow: 0 0 10px rgba(8, 8, 8, 0.9);
+}
+
+
+.deatails{
+    text-align: right;
+    text-transform: uppercase;
+}
+.deatails h3{
+    color: #555555;
+}
+.deatails address{
+    color: #9C9C9C;
+    font-size: 20px;
+}
+.deatails a{
+    color: #9C9C9C;
+    font-size: 20px;
+}
+
+#bottom-footer{
+    background: #333333;
+    padding-top: 25px;
+    min-height: 66px;
+}
+.copyright{
+    color: #E0E0E0;
+    font-size: 15px;
+
+}
+.copyright span{
+    font-size: 15px;
+}
+.copyright a{
+    color: #E0E0E0;
+}                           /*====Footer End Here=====*/
